@@ -36,7 +36,7 @@ export default function Portfolio() {
             />
           </Link>
         </ParallaxLayer>
-        <ParallaxLayer sticky={{ start: 1, end: 1.2 }} speed={0.6}>
+        <ParallaxLayer sticky={{ start: 1, end: 1.2 }} speed={0.5}>
           <div className="h-36 w-36 py-4 rounded-2xl translate-y-72">
             <img
               src="/images/30DM - Day 19 (high fashion) (5).jpg"
@@ -47,7 +47,7 @@ export default function Portfolio() {
         </ParallaxLayer>
         <ParallaxLayer
           sticky={{ start: 0, end: 5 }}
-          speed={0.6}
+          speed={0.5}
           className="flex flex-col justify-end items-end"
         >
           <div className="bg-blueJeans bg-opacity-80 h-fit py-2 mb-2 mr-2 rounded-full">
@@ -56,7 +56,7 @@ export default function Portfolio() {
             </p>
           </div>
         </ParallaxLayer>
-        <ParallaxLayer sticky={{ start: 3, end: 3.8 }} speed={0.6} offset={3}>
+        <ParallaxLayer sticky={{ start: 3, end: 3.8 }} speed={0.5} offset={3}>
           <div className="h-24 w-24 rounded-2xl translate-y-24">
             <img
               src="/images/30DM - Day 9 (Lady earth) (3).jpg"
@@ -65,7 +65,7 @@ export default function Portfolio() {
             />
           </div>
         </ParallaxLayer>
-        <ParallaxLayer sticky={{ start: 3, end: 3.8 }} speed={0.6} offset={3}>
+        <ParallaxLayer sticky={{ start: 3, end: 3.8 }} speed={0.5} offset={3}>
           <div className="h-16 w-16 rounded-2xl">
             <img
               src="/images/30DM - Day 9 (Lady earth) (4).jpg"
@@ -77,7 +77,7 @@ export default function Portfolio() {
         <ParallaxLayer
           sticky={{ start: 3, end: 3.5 }}
           offset={4}
-          speed={0.6}
+          speed={0.5}
           className="flex flex-col justify-end"
         >
           <div className="h-36 w-36 rounded-2xl -translate-y-32 translate-x-48">
@@ -91,7 +91,7 @@ export default function Portfolio() {
         <ParallaxLayer
           sticky={{ start: 3, end: 3.5 }}
           offset={4}
-          speed={0.6}
+          speed={0.5}
           className="flex flex-col justify-end"
         >
           <div className="h-36 w-36 rounded-2xl -translate-y-96 translate-x-48">
@@ -105,7 +105,7 @@ export default function Portfolio() {
         <ParallaxLayer
           sticky={{ start: 2, end: 2.3 }}
           offset={2}
-          speed={0.6}
+          speed={0.5}
           className="flex flex-col justify-start"
         >
           <div className="h-40 w-40 rounded-2xl translate-y-6 translate-x-4">
@@ -119,7 +119,7 @@ export default function Portfolio() {
         <ParallaxLayer
           sticky={{ start: 2, end: 2.1 }}
           offset={2.5}
-          speed={0.6}
+          speed={0.5}
           className="flex flex-col justify-start"
         >
           <div className="h-40 w-40 rounded-2xl translate-y-48 translate-x-48">
@@ -133,7 +133,7 @@ export default function Portfolio() {
         <ParallaxLayer
           sticky={{ start: 2, end: 2.1 }}
           offset={2.5}
-          speed={0.6}
+          speed={0.5}
           className="flex flex-col justify-end"
         >
           <div className="h-32 w-32 rounded-2xl -translate-y-16">
@@ -147,7 +147,7 @@ export default function Portfolio() {
         <ParallaxLayer
           sticky={{ start: 2, end: 2.1 }}
           offset={2.5}
-          speed={0.6}
+          speed={0.5}
           className="flex flex-col justify-end"
         >
           <div className="h-20 w-20 rounded-2xl -translate-y-56 -translate-x-4">
@@ -161,7 +161,7 @@ export default function Portfolio() {
         <ParallaxLayer
           sticky={{ start: 2, end: 2.5 }}
           offset={2.5}
-          speed={0.6}
+          speed={0.5}
           className="flex flex-col justify-center"
         >
           <div className="h-40 w-40 rounded-2xl translate-y-16 -translate-x-64">
@@ -174,7 +174,7 @@ export default function Portfolio() {
         </ParallaxLayer>
         <ParallaxLayer
           sticky={{ start: 2.5, end: 2.8 }}
-          speed={0.6}
+          speed={0.5}
           className="flex flex-col justify-end"
         >
           <div className="h-24 w-24 rounded-2xl -translate-y-12 ">
@@ -188,7 +188,7 @@ export default function Portfolio() {
 
         <ParallaxLayer
           sticky={{ start: 3, end: 3.2 }}
-          speed={0.6}
+          speed={0.5}
           className="flex flex-col justify-end"
         >
           <div className="h-36 w-36 rounded-2xl -translate-y-36">
@@ -201,7 +201,7 @@ export default function Portfolio() {
         </ParallaxLayer>
         <ParallaxLayer
           sticky={{ start: 4.4, end: 5 }}
-          speed={0.6}
+          speed={0.5}
           className="flex flex-col justify-end"
         >
           <div className="h-32 w-24 rounded-2xl -translate-y-36 translate-x-6">
@@ -214,7 +214,7 @@ export default function Portfolio() {
         </ParallaxLayer>
         <ParallaxLayer
           sticky={{ start: 4.2, end: 5 }}
-          speed={0.8}
+          speed={0.5}
           className="flex flex-col justify-start"
         >
           <div className="h-36 w-36 rounded-2xl translate-y-16 translate-x-12">
@@ -227,7 +227,7 @@ export default function Portfolio() {
         </ParallaxLayer>
         <ParallaxLayer
           sticky={{ start: 4.2, end: 5.0 }}
-          speed={0.3}
+          speed={0.5}
           className="flex flex-col justify-center"
         >
           <div className="h-24 w-24 rounded-2xl translate-y-36 translate-x-48">
@@ -240,7 +240,7 @@ export default function Portfolio() {
         </ParallaxLayer>
         <ParallaxLayer
           sticky={{ start: 5.4, end: 5.4 }}
-          speed={0.3}
+          speed={0.5}
           className="flex flex-col justify-start"
         >
           <div className="h-24 w-24 rounded-2xl translate-y-2 translate-x-36">
@@ -253,7 +253,7 @@ export default function Portfolio() {
         </ParallaxLayer>
         <ParallaxLayer
           sticky={{ start: 5.4, end: 5.4 }}
-          speed={0.3}
+          speed={0.5}
           className="flex flex-col justify-center"
         >
           <div className="h-24 w-24 rounded-2xl translate-y-36 translate-x-36">
@@ -267,7 +267,7 @@ export default function Portfolio() {
 
         <ParallaxLayer
           sticky={{ start: 5.4, end: 5.4 }}
-          speed={0.4}
+          speed={0.5}
           className="flex flex-col justify-center"
         >
           <div className="h-48 w-48 rounded-2xl -translate-y-8">
@@ -281,7 +281,7 @@ export default function Portfolio() {
 
         <ParallaxLayer
           sticky={{ start: 6, end: 6 }}
-          speed={0.4}
+          speed={0.5}
           className="flex flex-col justify-center"
         >
           <div className="h-20 w-20 rounded-2xl -translate-x-24">
@@ -294,7 +294,7 @@ export default function Portfolio() {
         </ParallaxLayer>
         <ParallaxLayer
           sticky={{ start: 5.4, end: 5.4 }}
-          speed={0.4}
+          speed={0.5}
           className="flex flex-col justify-start"
         >
           <div className="h-16 w-16 rounded-2xl translate-y-4 translate-x-24">
