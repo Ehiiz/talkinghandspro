@@ -20,7 +20,7 @@ function HomePage() {
 
   return (
     <div className="w-full h-screen bg-gradient-to-br from-matteBlack  to-black">
-      <Parallax ref={parallax} pages={4}>
+      <Parallax ref={parallax} pages={3}>
         <ParallaxLayer offset={2} speed={0.8}>
           <div className="bg-gradient-to-br  from-teaGreen  to-matteBlack h-full mt-16"></div>
         </ParallaxLayer>
@@ -105,7 +105,7 @@ function HomePage() {
         <ParallaxLayer
           offset={3}
           data-aos="fade-up"
-          sticky={{ start: 3, end: 3 }}
+          sticky={{ start: 2.9, end: 3 }}
           className="bg-black h-screen text-lg flex items-center justify-center flex-col-reverse"
         >
           {/* <div> */}
