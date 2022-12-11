@@ -29,7 +29,7 @@ function HomePage() {
           offset={2}
           speed={0.6}
           style={{
-            backgroundImage: "url('queen.jpg')",
+            backgroundImage: "url('queen.webp')",
             backgroundSize: "cover",
           }}
         >
@@ -50,7 +50,7 @@ function HomePage() {
           offset={0}
           speed={0.5}
           style={{
-            backgroundImage: "url('highfashion.jpg')",
+            backgroundImage: "url('highfashion.webp')",
             backgroundSize: "cover",
           }}
         >
@@ -73,7 +73,7 @@ function HomePage() {
           offset={1}
           speed={0.4}
           style={{
-            backgroundImage: "url('lolli.jpg')",
+            backgroundImage: "url('lolli.webp')",
             backgroundSize: "cover",
           }}
         >
@@ -96,7 +96,7 @@ function HomePage() {
         >
           <Link to="/">
             <img
-              src="logo.png"
+              src="logo.webp"
               alt=""
               className="h-16 w-16 motion-safe:animate-spin-slow z-10 border-2 border-white rounded-full"
             />

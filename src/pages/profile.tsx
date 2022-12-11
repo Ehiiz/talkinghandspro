@@ -32,7 +32,7 @@ export default function Profile() {
         >
           <Link to="/">
             <img
-              src="logo.png"
+              src="logo.webp"
               alt=""
               className="h-16 w-16 motion-safe:animate-spin-slow z-10 border-2 border-white rounded-full"
             />
@@ -45,7 +45,7 @@ export default function Profile() {
         >
           <div className="absolute top-0">
             <img
-              src="images/highie (4).jpg"
+              src="images/highie (4).webp"
               alt=""
               className="w-screen h-64 object-cover"
               data-aos="zoom-in"
@@ -55,7 +55,7 @@ export default function Profile() {
           <div className="flex-col flex justify-center items-center mt-24 relative">
             <div className="bg-gradient-to-r from-frenchLilac  to-teaGreen mb-8 py-1 px-1 rounded-full">
               <img
-                src="images/2.jpg"
+                src="images/2.webp"
                 alt=""
                 className="h-64 w-64 rounded-full"
                 data-aos="zoom-in"

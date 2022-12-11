@@ -27,7 +27,7 @@ export default function Profilee() {
       <header className="flex-col z-20 h-2 sticky self-center flex justify-start items-center py-3">
         <Link to="/">
           <img
-            src="logo.png"
+            src="logo.webp"
             alt=""
             className="h-16 w-16 motion-safe:animate-spin-slow z-50 border-2 border-white rounded-full"
           />
@@ -35,15 +35,15 @@ export default function Profilee() {
       </header>
       <div className="absolute top-0 bg-gradient-to-r from-frenchLilac  to-teaGreen pb-1">
         <img
-          src="images/highie (4).jpg"
+          src="images/highie (4).webp"
           alt=""
           className="w-screen h-64 object-cover"
-          data-aos="zoom-in"
+          // data-aos="zoom-in"
         />
       </div>
       <div className="self-center mt-24 bg-gradient-to-r from-frenchLilac  to-teaGreen mb-8 w-64 py-1 px-1 rounded-full">
         <img
-          src="images/2.jpg"
+          src="images/2.webp"
           alt=""
           className="h-64 w-64 rounded-full"
           data-aos="zoom-in"
