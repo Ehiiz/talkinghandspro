@@ -15,6 +15,19 @@ export default function Portfolio() {
     <div className="h-screen w-full bg-gradient-to-br from-matteBlack  to-black">
       <Parallax pages={5}>
         <ParallaxLayer
+          speed={0.7}
+          sticky={{ start: 0, end: 5 }}
+          className="flex-col h-2 flex justify-start items-center py-3"
+        >
+          <Link to="/">
+            <img
+              src="logo.png"
+              alt=""
+              className="h-16 w-16 motion-safe:animate-spin-slow z-10 border-2 border-white rounded-full"
+            />
+          </Link>
+        </ParallaxLayer>
+        <ParallaxLayer
           offset={0}
           speed={0.6}
           style={{
