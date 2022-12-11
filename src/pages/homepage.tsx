@@ -91,21 +91,21 @@ function HomePage() {
 
         <ParallaxLayer
           speed={0.7}
-          sticky={{ start: 0, end: 2.5 }}
+          sticky={{ start: 0, end: 3.9 }}
           className="flex-col h-2 flex justify-start items-center py-3"
         >
           <Link to="/">
             <img
               src="logo.webp"
               alt=""
-              className="h-16 w-16 motion-safe:animate-spin-slow z-10 border-2 border-white rounded-full"
+              className="h-16 w-16 motion-safe:animate-spin-slow z-50 border-2 border-white rounded-full"
             />
           </Link>
         </ParallaxLayer>
         <ParallaxLayer
           offset={3}
           data-aos="fade-up"
-          sticky={{ start: 2.9, end: 3 }}
+          sticky={{ start: 3.5, end: 4 }}
           className="bg-black h-screen text-lg flex items-center justify-center flex-col-reverse"
         >
           {/* <div> */}
