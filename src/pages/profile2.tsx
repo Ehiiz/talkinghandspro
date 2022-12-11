@@ -39,7 +39,6 @@ export default function Profilee() {
           alt=""
           className="w-screen h-64 object-cover"
           data-aos="zoom-in"
-          data-aos-duration="7000"
         />
       </div>
       <div className="self-center mt-24 bg-gradient-to-r from-frenchLilac  to-teaGreen mb-8 w-64 py-1 px-1 rounded-full">
@@ -48,7 +47,6 @@ export default function Profilee() {
           alt=""
           className="h-64 w-64 rounded-full"
           data-aos="zoom-in"
-          data-aos-duration="7000"
         />
       </div>
       <p className="self-center font-questrial text-2xl text-blueJeans font-bold pt-2">

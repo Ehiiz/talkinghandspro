@@ -8,6 +8,7 @@ import Portfolio from "./pages/portfolio";
 import HomePage from "./pages/homepage";
 import Profilee from "./pages/profile2";
 import Homie from "./pages/image1";
+import { Link } from "react-router-dom";
 
 function App() {
   useEffect(() => {

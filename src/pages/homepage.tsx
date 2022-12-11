@@ -19,8 +19,12 @@ function HomePage() {
   };
 
   return (
-    <div className="w-full h-screen bg-white">
+    <div className="w-full h-screen bg-gradient-to-br from-matteBlack  to-black">
       <Parallax ref={parallax} pages={4}>
+        <ParallaxLayer offset={2} speed={0.8}>
+          <div className="bg-gradient-to-br  from-teaGreen  to-matteBlack h-full mt-16"></div>
+        </ParallaxLayer>
+
         <ParallaxLayer
           offset={2}
           speed={0.6}
@@ -38,6 +42,10 @@ function HomePage() {
             </p>
           </div>
         </ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0.8}>
+          <div className="bg-gradient-to-r from-frenchLilac  to-teaGreen h-full mt-24"></div>
+        </ParallaxLayer>
+
         <ParallaxLayer
           offset={0}
           speed={0.5}
@@ -56,11 +64,11 @@ function HomePage() {
             </p>
           </div>
         </ParallaxLayer>
-        <ParallaxLayer
-          offset={1}
-          speed={0.5}
-          className="bg-black -z-10"
-        ></ParallaxLayer>
+
+        <ParallaxLayer offset={1} speed={0.6}>
+          <div className="bg-gradient-to-r from-frenchLilac  to-blueJeans h-full mt-16"></div>
+        </ParallaxLayer>
+
         <ParallaxLayer
           offset={1}
           speed={0.4}
@@ -80,6 +88,7 @@ function HomePage() {
             </p>
           </div>
         </ParallaxLayer>
+
         <ParallaxLayer
           speed={0.7}
           sticky={{ start: 0, end: 2.5 }}
@@ -93,35 +102,40 @@ function HomePage() {
             />
           </Link>
         </ParallaxLayer>
-        <ParallaxLayer offset={3} data-aos="fade-up">
-          <div className="bg-black h-screen text-lg flex items-center justify-center flex-col-reverse">
-            <div className="relative">
-              <div className="cursor-pointer rounded-full absolute top-2 right-1 motion-safe:animate-ping w-4 h-4 bg-lightPink"></div>
-              <button className="text-4xl cursor-wait text-viridian bg-transparent py-4 my-2 px-4 font-questrial rounded-full border-viridian border-2 animate-none hover:bg-viridian hover:text-white hover:py-6 hover:px-6 hover:border-2 hover:border-blueJeans">
-                <a href="https://wa.me/07062879533?text=I'm%20interested%20in%20booking%20your%20services">
-                  Book Now
-                </a>
-              </button>
-            </div>
+        <ParallaxLayer
+          offset={3}
+          data-aos="fade-up"
+          sticky={{ start: 3, end: 3 }}
+          className="bg-black h-screen text-lg flex items-center justify-center flex-col-reverse"
+        >
+          {/* <div> */}
+          <Link to="/profile">
+            <p className=" cursor-pointer font-Montserrat text-2xl my-2 text-frenchLilac">
+              Profile &#8594;
+            </p>
+          </Link>
 
-            <Link to="/profile">
-              <p className=" cursor-pointer font-Montserrat text-2xl my-2 text-frenchLilac">
-                Profile &#8594;
-              </p>
-            </Link>
+          <Link to="/portfolio">
+            <p className="cursor-pointer font-Montserrat text-2xl my-2 text-blueJeans">
+              Portfolio &#8594;
+            </p>
+          </Link>
 
-            <Link to="/portfolio">
-              <p className="cursor-pointer font-Montserrat text-2xl my-2 text-blueJeans">
-                Portfolio &#8594;
-              </p>
-            </Link>
+          <Link to="/profile">
+            <p className=" cursor-pointer font-Montserrat text-2xl my-2 text-lightPink">
+              Contact us &#8594;
+            </p>
+          </Link>
 
-            <Link to="/profile">
-              <p className=" cursor-pointer font-Montserrat text-2xl my-2 text-lightPink">
-                Contact us &#8594;
-              </p>
-            </Link>
+          <div className="relative">
+            <div className="cursor-pointer rounded-full absolute top-2 right-1 motion-safe:animate-ping w-4 h-4 bg-lightPink"></div>
+            <button className="text-4xl cursor-wait text-viridian bg-transparent py-4 my-2 px-4 font-questrial rounded-full border-viridian border-2 animate-none hover:bg-viridian hover:text-white hover:py-6 hover:px-6 hover:border-2 hover:border-blueJeans">
+              <a href="https://wa.me/07062879533?text=I'm%20interested%20in%20booking%20your%20services">
+                Book Now
+              </a>
+            </button>
           </div>
+          {/* </div> */}
         </ParallaxLayer>
       </Parallax>
     </div>
