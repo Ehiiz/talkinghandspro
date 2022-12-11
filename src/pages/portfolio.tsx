@@ -107,7 +107,7 @@ export default function Portfolio() {
         </ParallaxLayer>
         <ParallaxLayer offset={3} speed={0.8}>
           <img
-            src="images/30 DM - Day 13 (corporate affair) (3).jpg"
+            src="images/30 DM - Day 13 (corporate affair) (3).webp"
             alt=""
             className="w-32 h-32 pl-2 -translate-y-56 drop-shadow-2xl"
           />
