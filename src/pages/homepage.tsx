@@ -103,9 +103,11 @@ function HomePage() {
           </Link>
         </ParallaxLayer>
         <ParallaxLayer
+          speed={0.7}
           offset={3}
-          data-aos="fade-up"
-          sticky={{ start: 3, end: 4 }}
+          factor={2}
+          //data-aos="fade-up"
+          sticky={{ start: 3.9, end: 4 }}
           className="bg-black h-screen text-lg flex items-center justify-center flex-col-reverse"
         >
           {/* <div> */}
