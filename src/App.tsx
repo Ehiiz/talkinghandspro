@@ -6,6 +6,8 @@ import "aos/dist/aos.css";
 import Profile from "./pages/profile";
 import Portfolio from "./pages/portfolio";
 import HomePage from "./pages/homepage";
+import Profilee from "./pages/profile2";
+import Homie from "./pages/image1";
 
 function App() {
   useEffect(() => {
@@ -16,7 +18,7 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/profile" element={<Profilee />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/" element={<HomePage />} />
         </Routes>

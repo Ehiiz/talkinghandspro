@@ -5,6 +5,15 @@ import { ReactComponent as Services } from "../icons/services.svg";
 import { ReactComponent as Reviews } from "../icons/reviews.svg";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import {
+  faTwitter,
+  faFacebook,
+  faTiktok,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 export default function Profile() {
   useEffect(() => {
@@ -15,11 +24,11 @@ export default function Profile() {
 
   return (
     <div className="bg-gradient-to-br from-matteBlack  to-black h-screen w-full-width">
-      <Parallax ref={parallax} pages={2}>
+      <Parallax ref={parallax} pages={3}>
         <ParallaxLayer
-          speed={0.7}
+          speed={0.5}
           sticky={{ start: 0, end: 0.1 }}
-          className="flex-col h-2 flex justify-start items-center py-3"
+          className="flex-col z-20 h-2 flex justify-start items-center py-3"
         >
           <Link to="/">
             <img
@@ -29,9 +38,22 @@ export default function Profile() {
             />
           </Link>
         </ParallaxLayer>
-        <ParallaxLayer offset={0}>
-          <div className="flex-col flex justify-center items-center mt-24">
-            <div className="bg-gradient-to-r from-frenchLilac  to-teaGreen py-1 px-1 rounded-full">
+        <ParallaxLayer
+          offset={0}
+          sticky={{ start: 0.2, end: 0.2 }}
+          className="relative -mt-24"
+        >
+          <div className="absolute top-0">
+            <img
+              src="images/highie (4).jpg"
+              alt=""
+              className="w-screen h-64 object-cover"
+              data-aos="zoom-in"
+              data-aos-duration="7000"
+            />
+          </div>
+          <div className="flex-col flex justify-center items-center mt-24 relative">
+            <div className="bg-gradient-to-r from-frenchLilac  to-teaGreen mb-8 py-1 px-1 rounded-full">
               <img
                 src="images/2.jpg"
                 alt=""
@@ -50,19 +72,29 @@ export default function Profile() {
               Crochet Creator
             </p>
             <div className="flex justify-evenly mt-16 items-center">
-              <div className="h-14 w-14 bg-transparent flex flex-col items-center justify-center mx-2 rounded-lg">
-                <Services />
-              </div>
-              <div className="h-14 w-14 bg-transparent flex flex-col items-center justify-center mx-2 rounded-lg">
-                <Services />
-              </div>
-              <div className="h-14 w-14 bg-transparent flex flex-col items-center justify-center mx-2 rounded-lg">
-                <Services />
-              </div>
+              <a href="https://www.instagram.com/talkinghands_pro/">
+                <FontAwesomeIcon
+                  className="text-white px-6 text-3xl"
+                  icon={faInstagram}
+                  to="/profile"
+                />
+              </a>
+              <a href="https://www.instagram.com/talkinghands_pro/">
+                <FontAwesomeIcon
+                  className="text-white px-6 text-3xl"
+                  icon={faTiktok}
+                />
+              </a>
+              <a href="https://www.instagram.com/talkinghands_pro/">
+                <FontAwesomeIcon
+                  className="text-white px-6 text-3xl"
+                  icon={faEnvelope}
+                />
+              </a>
             </div>
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={1}>
+        <ParallaxLayer offset={1.4} className="-mt-28">
           <div
             className="px-4 flex flex-col"
             data-aos="fade-left"
@@ -85,15 +117,28 @@ export default function Profile() {
               and loads of others{" "}
             </p>
             <hr className="border-1 mt-20 border-white" />
-            <div className="mt-24 self-center flex flex-col items-center rounded-lg">
+          </div>
+        </ParallaxLayer>
+
+        <ParallaxLayer offset={2.1} className="-mt-28">
+          <div
+            className="px-4 flex flex-col"
+            data-aos="fade-left"
+            data-aos-duration="10000"
+          >
+            <div className="self-center flex flex-col items-center rounded-lg">
               <p className="text-white text-lg font-questrial italic">
                 want to create magic,
               </p>
               <p className="text-blueJeans font-bold text-sm font-questrial italic">
                 let's work together
               </p>
-              <button className="text-3xl font-bold text-white bg-viridian py-4 my-4 px-4 font-questrial rounded-full border-white border-2 animate-none hover:bg-viridian hover:bg-opacity-40 hover:text-white hover:py-5 hover:px-5 hover:border-2 hover:border-white">
-                book now
+            </div>
+            <div className="self-center mt-12">
+              <button className="text-4xl cursor-wait text-viridian bg-transparent py-4 my-2 px-4 font-questrial rounded-full border-viridian border-2 animate-none hover:bg-viridian hover:text-white hover:py-6 hover:px-6 hover:border-2 hover:border-blueJeans">
+                <a href="https://wa.me/07062879533?text=I'm%20interested%20in%20booking%20your%20services">
+                  Book Now
+                </a>
               </button>
             </div>
 

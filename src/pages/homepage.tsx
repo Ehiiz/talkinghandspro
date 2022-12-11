@@ -58,6 +58,11 @@ function HomePage() {
         </ParallaxLayer>
         <ParallaxLayer
           offset={1}
+          speed={0.5}
+          className="bg-black -z-10"
+        ></ParallaxLayer>
+        <ParallaxLayer
+          offset={1}
           speed={0.4}
           style={{
             backgroundImage: "url('lolli.jpg')",
@@ -89,10 +94,16 @@ function HomePage() {
           </Link>
         </ParallaxLayer>
         <ParallaxLayer offset={3} data-aos="fade-up">
-          <div
-            className="bg-black h-screen text-lg flex items-center justify-center flex-col-reverse"
-            data-aos="zoom-in"
-          >
+          <div className="bg-black h-screen text-lg flex items-center justify-center flex-col-reverse">
+            <div className="relative">
+              <div className="cursor-pointer rounded-full absolute top-2 right-1 motion-safe:animate-ping w-4 h-4 bg-lightPink"></div>
+              <button className="text-4xl cursor-wait text-viridian bg-transparent py-4 my-2 px-4 font-questrial rounded-full border-viridian border-2 animate-none hover:bg-viridian hover:text-white hover:py-6 hover:px-6 hover:border-2 hover:border-blueJeans">
+                <a href="https://wa.me/07062879533?text=I'm%20interested%20in%20booking%20your%20services">
+                  Book Now
+                </a>
+              </button>
+            </div>
+
             <Link to="/profile">
               <p className=" cursor-pointer font-Montserrat text-2xl my-2 text-frenchLilac">
                 Profile &#8594;
@@ -110,14 +121,6 @@ function HomePage() {
                 Contact us &#8594;
               </p>
             </Link>
-
-            {/* <div className="relative"> */}
-            {/* <div className="cursor-pointer rounded-full absolute top-2 right-1 motion-safe:animate-ping w-4 h-4 bg-lightPink"></div> */}
-
-            <button className="text-4xl cursor-wait text-viridian bg-transparent py-4 my-2 px-4 font-questrial rounded-full border-viridian border-2 animate-none hover:bg-viridian hover:text-white hover:py-6 hover:px-6 hover:border-2 hover:border-blueJeans">
-              <Link to="/profile">Book Now</Link>
-            </button>
-            {/* </div> */}
           </div>
         </ParallaxLayer>
       </Parallax>
