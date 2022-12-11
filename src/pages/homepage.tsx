@@ -20,7 +20,7 @@ function HomePage() {
 
   return (
     <div className="w-full h-screen bg-gradient-to-br from-matteBlack  to-black">
-      <Parallax ref={parallax} pages={3}>
+      <Parallax ref={parallax} pages={4}>
         <ParallaxLayer offset={2} speed={0.8}>
           <div className="bg-gradient-to-br  from-teaGreen  to-matteBlack h-full mt-16"></div>
         </ParallaxLayer>
