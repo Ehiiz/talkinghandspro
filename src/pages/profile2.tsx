@@ -89,11 +89,13 @@ export default function Profilee() {
         </h2>
         <p className="font-Montserrat text-sm text-teaGreen">
           <span className="text-xl font-questrial">Ezenwa Princess </span>
-          is a veteran makeup, visual artiste and crochet creator who has carved
-          a niche in creating surreal photoshoots for her clients Worked with
-          top photographers in Africa, Talking Hands offers its client unqiue
-          services and in giving you the perfect look for your occassion. As a
-          brand we have worked with top photographers and studios like{" "}
+          is one of Benin's top makeup artiste offering the best makeup service
+          in Edo state; a veteran makeup, visual artiste and crochet creator who
+          has carved a niche in creating surreal photoshoots for her clients
+          Worked with top photographers in Africa, Talking Hands offers its
+          client unqiue services and in giving you the perfect look for your
+          occassion. As a brand we have worked with top photographers and
+          studios like{" "}
           <span className="text-lightPink font-Montserrat font-bold">
             Khannah Black, Studio A, David, Rodelenz{" "}
           </span>
